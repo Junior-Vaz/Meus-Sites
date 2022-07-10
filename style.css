@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.icone_logo{
+    width: 100px;
+}
+.Cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #D1BB43;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nome-menu{
+    color:#ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700px;
+}
+.fundo{
+    max-width: 100%;
+    position: absolute ;
+}
+.e-nosso{
+    position: absolute;
+}
+.Conteudo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+}
+.botão_conteudo{
+    position: absolute;
+    display: flex;
+}
+.botão_conteudo{
+    display: flex;
+    border-style: none;
+    background-color: #c75605;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.inscrever-se{
+    color: white;
+    display: block;
+    padding: 5px 30px 5px 30px ;
+}
+.conteudo-secundário{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.box-divs{
+    background-color: #AC4800;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.box-divs:hover{
+    background-color: #4b1f00;
+}
